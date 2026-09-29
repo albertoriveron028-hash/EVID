@@ -1,0 +1,37 @@
+# Entorno virtual
+.venv/
+.venv_backup/
+
+# Claves y secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Datos privados de cada EVID
+usuarios/
+memoria/
+
+# Archivos de audio generados durante pruebas
+*.wav
+
+# Modelos y voces antiguas no utilizados por MARK72
+kokoro-v1.0.int8.onnx
+voices-v1.0.bin
+voices/
+voces_es/
